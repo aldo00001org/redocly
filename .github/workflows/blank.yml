@@ -1,2 +1,4 @@
-- name: Create openapi yaml
-  uses: wistefan/create-openapi-yaml@0.0.0
+uses: actions/create-openapi-yaml@v1
+with:
+  model-name: 'ACMeasurement'
+  repository-name: 'dataModel.Energy'
